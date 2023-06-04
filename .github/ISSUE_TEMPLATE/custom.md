@@ -9,7 +9,7 @@ assignees: ''
 
 ---
 name: User Story
-about: learn a Feature/Cust_Template/User Story
+about: Cust_Template for User Stories
 title: ''
 labels: ''
 assignees: ''
