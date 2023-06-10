@@ -1,6 +1,6 @@
 ---
 name: User Story
-about: learn a Feature/Cust_Template/User Story
+about: User Story custom
 title: ''
 labels: ''
 assignees: ''
