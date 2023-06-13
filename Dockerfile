@@ -1,4 +1,4 @@
-FROM python:3.9-slim  #now only 3.8 !?
+FROM python:3.9-slim
 
 # Create working folder and install dependencies
 WORKDIR /app
