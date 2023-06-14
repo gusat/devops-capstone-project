@@ -23,22 +23,8 @@ spec:
         resources: {}
         env:
           - name: DATABASE_URI
-            value: "postgresql://postgres:postgres@postgresql:5432/postgres"
-          - name: DATABASE_HOST
-            value: postgresql
-          - name: DATABASE_NAME
             valueFrom:
               secretKeyRef:
-                name: postgresql
-                key: database-name
-          - name: DATABASE_PASSWORD
-            valueFrom:
-              secretKeyRef:
-                name: postgresql
-                key: database-password
-          - name: DATABASE_USER
-            valueFrom:
-              secretKeyRef:
-                name: postgresql
-                key: database-user
+                name: combined-secrets
+                key: DATABASE_URI
 status: {}
